@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: roboto, sans-serif;
 }
 
 .header {
@@ -11,6 +12,8 @@ body {
     padding-right: 100px;
     padding-bottom: 50px;
 }
+
+
 
 .bot-section {
     display: flex;
@@ -35,7 +38,8 @@ p {
 .hero-text {
     flex: auto;
     flex-wrap: wrap;
-    max-width: 300px;
+    max-width: 50%;
+    margin-right: 48px;
 }
 
 .main-text {
@@ -47,6 +51,7 @@ p {
 a, .secondary-text {
     font-size: 18px;
     color: #e5e7eb;
+    text-decoration: none;
 }
 
 .header-logo {
@@ -62,6 +67,67 @@ ul {
 }
 
 .header-img {
-    height: 213px;
-    width: 320px;
+    height: 320px;
+    width: 560px;
+}
+
+.mid-top {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+
+.information {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+}
+
+.mid-images {
+    height: 200px;
+    width: 200px;
+    border: 2px;
+    border-color: #ffffff;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.image-text {
+    text-align: center;
+}
+
+.mid-bot {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 8em 25%;
+    margin-top: 60px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    text-align: justify;
+    color: #1F2937;
+    flex: 1 1 50%;
+}
+
+.quote-source {
+    align-self: flex-end;
 }
