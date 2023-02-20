@@ -18,9 +18,10 @@ body {
 .header-bot-section {
     display: flex;
     flex: auto;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 48px;
     align-items: center;
+    padding: 90px;
 }
 
 p {
@@ -33,6 +34,7 @@ p {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    padding: 30px;
 }
 
 .hero-text {
@@ -69,6 +71,7 @@ ul {
 .header-img {
     height: 320px;
     width: 560px;
+    border-radius: 8px;
 }
 
 .mid-top {
@@ -89,6 +92,7 @@ ul {
 .box-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 32px;
 }
 
@@ -108,6 +112,7 @@ ul {
 
 .image-text {
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .mid-bot {
