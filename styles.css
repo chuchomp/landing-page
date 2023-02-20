@@ -15,7 +15,7 @@ body {
 
 
 
-.bot-section {
+.header-bot-section {
     display: flex;
     flex: auto;
     justify-content: space-between;
@@ -27,7 +27,7 @@ p {
     margin: 6px;
 }
 
-.top-section {
+.header-top-section {
     display: flex;
     flex: auto;
     justify-content: space-between;
@@ -124,10 +124,30 @@ ul {
     font-size: 36px;
     font-style: italic;
     text-align: justify;
-    color: #1F2937;
+    color: #1F2937;text-align: end;
     flex: 1 1 50%;
 }
 
 .quote-source {
     align-self: flex-end;
 }
+
+.bot-section {
+    padding: 7.5% 15%
+}
+
+.bot-card {
+    background-color: #3882F6;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 4em;
+    align-items: center;
+}
+
+.action-text {
+    color:#F9FAF8;
+    margin: 2px;
+}
+
+.action-button {}
