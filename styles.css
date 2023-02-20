@@ -150,4 +150,19 @@ ul {
     margin: 2px;
 }
 
-.action-button {}
+button {
+    padding: 0.5em 2em;
+    border-radius: 8px;
+}
+
+.hero-button, .action-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.action-button {
+    border: 2px;
+    border-color: white;
+    border-style: solid;
+}
